@@ -28,11 +28,19 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.page-header { font-size:1rem; color:blue; }
+.photo-gallery { display: flex; flex-flow: row wrap; }
+.photo-margin { margin:2px; }
+
+#header 
+{
+	margin:0;
+	text-align: center;
+	padding:10px 0px 10px 0px;
 }
+
+    #header img 
+    {
+        max-width: 100%;
+        height: auto;
+    }

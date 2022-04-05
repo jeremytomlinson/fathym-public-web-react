@@ -1,4 +1,4 @@
-name: jeremytomlinson - $public-web-react
+name: jeremytomlinson/public-web-react
 
 on:
   push:

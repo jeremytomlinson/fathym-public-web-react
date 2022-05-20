@@ -10,7 +10,7 @@ function App() {
   return (
     <div className="App">
       <div id="header">
-          <img src={phototimez} alt="photo timez" />
+          <img src={phototimez} alt="" />
       </div>
       <div className="photo-gallery">
         <img src={allrecipes} width="600" height="338" className="photo-margin" alt="" />

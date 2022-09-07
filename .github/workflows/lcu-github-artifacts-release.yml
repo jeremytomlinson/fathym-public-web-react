@@ -1,4 +1,4 @@
-name: jeremytomlinson - $public-web-react
+name: jeremytomlinson/fathym-public-web-react
 
 on:
   push:
@@ -13,7 +13,7 @@ env:
   Branches: main
   MainBranch: main
   NPMRegistry: https://registry.npmjs.org/
-  InstallCommand: npm ci
+  InstallCommand: npm i
   BuildCommand: npm run build
   Output: ./build
 
